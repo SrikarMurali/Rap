@@ -10,3 +10,7 @@ Here is the link to the App.
 
 https://snoopygoblin0973.shinyapps.io/Caculator/
 
+Here is the link to the presentation:
+
+http://rpubs.com/SrikarMurali/325602
+
