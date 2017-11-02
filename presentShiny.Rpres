@@ -1,0 +1,49 @@
+Rap Artist and Song Recommender
+========================================================
+author: Srikar Murali
+date: November 1, 2017
+autosize: true
+
+Overview
+========================================================
+
+This was built as part of a deliverable for the course Developing Data Products as part of the Coursera Data Science Specialization.
+
+
+
+Reasoning
+========================================================
+
+This apps main purpose is to help users who are into rap decide on a rap song given their mood. In addition it helps people find rap artists given their music taste.
+
+
+
+Code
+========================================================
+This function is one of the helpers for determining the music type, these are the major artists. If another mood is entered the program adjusts.
+
+```{r}
+MusicPred <- function(mood){
+  if (mood=="happy") "Versatile by Kodak"
+  else if (mood=="sad") "Suicidal Thoughts By The Notorious B.I.G."
+  else if (mood=="vibe") "Acid Rain by Chance the Rapper"
+  else if (mood=="angry") "Hard in da Paint by Waka Flocka Flame"
+  else if (mood=="lit") "Ok Dexter by Famous Dex"
+  else if (mood=="mood") "Problems by 6lack "
+  else if (mood=="confused") "Really Doe by Danny Brown"
+  else if (mood=="depressed") "All I Got is You by GhostFace Killah"
+  else if (mood=="energetic") "Moon Walkin by Rich the Kind"
+  else if (mood=="lean") "Met Gala by Gucci Mane"
+  else if (mood=="high") "Marijuana by Kid Cudi"
+  else if (mood=="lazy") "Kyoto by Yung Lean"
+  else if (mood=="chill") "Gold by Brockhampton"
+  else "Anything by Kendrick Lamar"
+}
+```
+
+
+
+Further Testing
+========================================================
+
+This apps is still in development, more data will be collected to create a model to fit music taste to mood.
